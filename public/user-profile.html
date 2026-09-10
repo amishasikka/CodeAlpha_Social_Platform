@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gupshup | User Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <a href="profile.html" class="logo">Gupshup</a>
+        <nav>
+            <a href="profile.html">Home</a>
+            <a href="profile-page.html">Profile</a>
+            <button id="logoutButton">Logout</button>
+        </nav>
+    </header>
+    <main class="profile-page">
+        <section class="profile-card">
+            <div class="profile-avatar" id="profileAvatar"></div>
+            <div class="profile-info">
+                <p class="eyebrow">GUPSHUP PROFILE</p>
+                <h1 id="profileName">Loading...</h1>
+                <p class="profile-username" id="profileUsername"></p>
+                <p class="profile-bio" id="profileBio"></p>
+                <div class="profile-stats">
+                    <div>
+                        <strong id="followersCount">0</strong>
+                        <span>Followers</span>
+                    </div>
+                    <div>
+                        <strong id="followingCount">0</strong>
+                        <span>Following</span>
+                    </div>
+                </div>
+                <button id="followButton" class="profile-follow-button">Follow</button>
+                <p id="profileMessage" class="message"></p>
+            </div>
+        </section>
+    </main>
+    <script src="user-profile.js"></script>
+</body>
+</html>
